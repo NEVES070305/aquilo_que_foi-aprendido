@@ -87,6 +87,17 @@ h1#faca_senai{
     overflow: hidden;
     background: none;
 }
+div.ajustes_corpo{
+    margin-left: 25px;
+}
+
+div.html_css{
+    display: flex;
+}
+.titlee{
+    justify-content: center; 
+    text-align: center;
+}
 
 
 
@@ -126,18 +137,18 @@ aside{
 
 footer p, footer em {
     color: #fff;
-}
+}*/
 footer{
-    background-color: rgb(83, 31, 128);
+    background-color: #7A609A;
     text-align: center;
     justify-content: center;
     margin: 0px;
-    background-color: #19195f;
     color: #fff;
     bottom: 0;
     width: 100%;
     padding: 10px;
 }
+/*
 p{
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: medium;

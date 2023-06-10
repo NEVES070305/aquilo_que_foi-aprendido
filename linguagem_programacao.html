@@ -81,86 +81,162 @@
                 <h1 class="titlee" >Ciência de dados
                 </h1>
                 <ul>
-                    <li>Amostragem</li>
-                    <li>Aleatória</li>
-                    <li>Aleatória simples</li>
-                    <li>Sistemática</li>
-                    <li>Estratificada</li>
-                    <li>Tendência central</li>
-                    <li>Média</li>
-                    <li>Mediana</li>
-                    <li>Moda</li>
-                    <li>Percentil</li>
-                    <li>Quartil</li>
-                    <li>Medida de dispersão</li>
-                    <li>Amplitude</li>
-                    <li>Variância</li>
-                    <li>Desvio padrão</li>
-                    <li>Qui quadrado</li>
+                    <li>Amostragem: processo utilizado em pesquisas e estatística para selecionar uma parte representativa de uma população maior. Em muitos casos, é inviável ou impraticável coletar dados de todos os elementos de uma população, então a amostragem permite estudar apenas uma fração dessa população, conhecida como amostra.</li>
+                    <ul>
+                        <li>Amostragem aleatória:um método utilizado na pesquisa e estatística para selecionar uma amostra de indivíduos de uma população de forma imparcial e aleatória.</li>
+                        <li>Amostragem sistemática: um método de seleção de amostras em que os elementos da população são escolhidos de acordo com um padrão sistemático predefinido. Esse método é usado quando a população-alvo possui uma ordem natural ou sequencial e é desejável obter uma amostra representativa dessa sequência.</li>
+                        <li>Amostragem estratificada: um método de seleção de amostras em que a população é dividida em subgrupos distintos chamados estratos. Uma amostra é selecionada aleatoriamente dentro de cada estrato, garantindo que cada subgrupo esteja adequadamente representado na amostra final.</li>
+                    </ul>
+                    <li>Tendência central: conceito estatístico que busca resumir ou descrever o valor central ou típico de um conjunto de dados.</li>
+                    <ul>
+                        <li>Média: calculada somando todos os valores do conjunto de dados e dividindo pelo número total de observações. Ela é sensível a valores extremos (outliers) e é afetada por eles. </li>
+                        <li>Mediana:  o valor que divide os dados ordenados em duas partes iguais, ou seja, metade dos valores está acima da mediana e metade está abaixo.</li>
+                        <li>Moda: valor ou valores que ocorrem com maior frequência em um conjunto de dados. </li>
+                    </ul>
+                    <li>Percentil: medida estatística que indica a posição relativa de um valor em relação a um conjunto de dados. Ele divide os dados ordenados em 100 partes iguais, fornecendo uma referência sobre como um valor específico se compara ao restante do conjunto.</li>
+                    <li>Quartil: medidas estatísticas que dividem um conjunto de dados ordenados em quatro partes igualmente divididas.</li>
+                    <li>Medida de dispersão:  estatística que descreve a variabilidade ou dispersão dos valores em um con</li>
+                    <ul>
+                        <li>Amplitude: a diferença entre o maior e o menor valor em um conjunto de dados. Embora seja fácil de calcular, a amplitude é sensível a valores extremos e pode não ser uma medida robusta de dispersão.</li>
+                        <li>Variância: uma medida de dispersão que indica a média dos quadrados das diferenças entre cada valor do conjunto de dados e a média. A variância leva em conta todos os valores e fornece uma indicação da variabilidade total dos dados.</li>
+                        <li>Desvio padrão:  raiz quadrada da variância. O desvio padrão é uma medida mais interpretável, pois está na mesma unidade dos dados originais. Ele indica o quanto, em média, os valores desviam da média e é amplamente utilizado devido à sua interpretação intuitiva.</li>
+                        
+                    </ul>
+                    <li>Qui quadrado: o teste qui-quadrado compara as frequências observadas em cada categoria com as frequências esperadas, caso as variáveis sejam independentes. Quanto maior for a diferença entre as frequências observadas e esperadas, maior será o valor do qui-quadrado e maior a evidência contra a independência das variáveis.</li>
                 </ul>
             </section>
             <section id="banco_dados" style="padding-left: 10%; margin-top: 10%;">
                 <h1 class="titlee">Banco de dados</h1>
                 <p>Banco de dados é um sistema organizado de armazenamento de informações que permite a criação, manipulação e recuperação eficiente de dados. Ele é projetado para armazenar grandes quantidades de informações de forma estruturada, para que possam ser facilmente acessadas, gerenciadas e atualizadas.</p>
                 <ul>
-                    <li>Linguagem SQL, no PostgreSQL</li>
+                    <li>Linguagem SQL, no PostgreSQL: é uma linguagem de programação usada para gerenciar e manipular bancos de dados relacionais. Ela permite a criação, atualização, consulta e exclusão de dados em um banco de dados.</li>
                     <li>Documentar tabelas, estruturas e relações do banco</li>
-                    <li>MER: Modelo Entidade-Relacionamento</li>
-                    <li>DER: Diagrama Entidade-Relacionamento</li>
-                    <li>Modelos: Conceitual, Lógico e Físico</li>
+                    <li>MER(Modelo Entidade-Relacionamento):  é uma técnica para projetar e representar a estrutura de um banco de dados relacional. O modelo MER é utilizado para descrever as entidades (objetos ou conceitos) envolvidos em um sistema, bem como os relacionamentos entre essas entidades.</li>
+                    <li>DER (Diagrama Entidade-Relacionamento): uma representação gráfica do modelo de dados na modelagem de banco de dados. </li>
+                    <img src="./imagens/downloadDER.jpeg" alt="">
+                    <li>SGBD:  um software projetado para gerenciar o armazenamento, organização, acesso e manipulação de dados em um banco de dados. Ele fornece uma interface para interagir com o banco de dados e oferece recursos para criar, modificar, consultar e administrar os dados armazenados.</li>
+                    <li>Comandos:</li>
+                    <ul>
+                        <li>DDL: Data Definition Language</li>
+                        <li>Comandos DML: Data Manipulation Language</li>
+                        <li>Comandos DQL: Data Query Language</li>
+                        <li>Comandos DTL: Data Trasaction Language</li>
+                        <li>Comandos DCL: Data Control Language</li>
+                    </ul>
+                    <li>Modelos:</li>
+                    <ul>
+                        <li>Conceitual: a representação mais abstrata do banco de dados e descreve as entidades, os relacionamentos e as restrições de forma independente de qualquer sistema de gerenciamento de banco de dados específico. </li>
+                        <li>Lógico: uma representação intermediária que descreve como os dados são organizados e relacionados no banco de dados, mas não se preocupa com os detalhes específicos de implementação. Ele é projetado para ser independente do sistema de gerenciamento de banco de dados (SGBD) e é mais detalhado do que o modelo conceitual.</li>
+                        <li>Físico:  representação mais detalhada do banco de dados e está diretamente relacionado à implementação física do banco de dados em um sistema de gerenciamento de banco de dados específico.</li>
+                    </ul>
                 </ul>
             </section>
             <section id="auto_ind" style="padding-left: 10%; margin-top: 10%;">
                 <h1 class="titlee">Automação industrial</h1>
                 <ul>
                     <li>
-                        Sensores
+                        Sensores: dispositivos eletrônicos ou mecânicos projetados para detectar e medir alterações em seu ambiente físico e converter essas informações em um sinal mensurável ou legível para serem processadas ou utilizadas por outros sistemas.
                     </li>
-                    <li>Instruções de bit</li>
-                    <li>Conversão de dados</li>
-                    <li>Tinkercad</li>
+                    <li>Instruções de bit: operações que manipulam ou alteram bits individuais em uma representação binária de dados. Elas são amplamente utilizadas em programação de baixo nível, processamento de dados e manipulação de hardware.</li>
+                    <li>Conversão de dados: processo de alterar a representação de um dado de um formato para outro.</li>
+                    <li>Tinkercad: plataforma online de design e simulação 3D, desenvolvida pela Autodesk. Ela foi projetada para permitir que estudantes, entusiastas e profissionais criem e compartilhem projetos de design, eletrônica e impressão 3D.</li>
                 </ul>
             </section>
             
             <section id="redes" style="padding-left: 10%;margin-top: 10%;">
                 <h1 class="titlee">Redes e Computadores</h1>
                 <ul>
-                    <li>Topologias de rede</li>
-                    <li>Routers
+                    <li>Topologias de rede:  referem-se à forma como os dispositivos de uma rede de computadores estão fisicamente conectados entre si.</li>
+                    <ul>
+                        <li>Topologia em Estrela: , todos os dispositivos da rede são conectados a um ponto central, como um switch ou concentrador. Cada dispositivo tem uma conexão direta com o ponto central, e as comunicações entre os dispositivos passam por esse ponto central.</li>
+                        <li>Topologia em Anel: os dispositivos são conectados em uma estrutura de anel, onde cada dispositivo está conectado a dois dispositivos vizinhos, formando um circuito fechado.</li>
+                        <li>Topologia em Barramento: todos os dispositivos são conectados a um único cabo compartilhado, chamado de barramento. Os dispositivos se comunicam enviando sinais pela linha do barramento, e todos os dispositivos recebem esses sinais.</li>
+                        <li>Topologia em Malha: cada dispositivo é conectado a todos os outros dispositivos da rede, formando um padrão de conexões redundantes. Isso permite várias rotas para a transmissão de dados, o que aumenta a confiabilidade e a disponibilidade da rede.</li>
+                    </ul>
+                    <li>Modelo OSI: modelo conceitual que descreve uma arquitetura de rede em camadas. Foi desenvolvido pela International Organization for Standardization (ISO) como um padrão para garantir a interoperabilidade entre diferentes sistemas de comunicação de rede.</li>
+                    <li>Modelo TCP/IP: um conjunto de protocolos de rede que define a forma como os dispositivos se comunicam e trocam informações em redes de computadores. Ele é o modelo mais amplamente utilizado em redes de dados e é a base da Internet.</li>
+                    <li>Routers: dispositivos de rede que desempenham um papel fundamental na comunicação de dados em redes de computadores.
+                        <br>
+                        Funções:
+                        <ul>
+                            <li>Encaminhamento de pacotes,</li>
+                            <li>Divisão de redes,</li>
+                            <li>Conexão de redes,</li>
+                            <li>Tradução de endereços de rede,</li>
+                            <li>Segurança de rede.</li>
+                        </ul>
                     </li>
-                    <li>"Access Points"</li>
-                    <li>"Firewalls"</li>
-                    <li>Cabos Ethernet:</li>
-                    <li>Cabos Coaxiais
+                    <li>"Access Points": são dispositivos de rede sem fio que permitem a conexão de dispositivos móveis, como laptops, smartphones e tablets, a uma rede local (LAN) ou à internet. Eles atuam como pontes entre a rede com fio e a rede sem fio, permitindo que os dispositivos sem fio se conectem e comuniquem por meio de tecnologias como Wi-Fi.</li>
+                    <li>"Firewalls": dispositivos ou programas de software que atuam como uma barreira de segurança entre redes, controlando o tráfego de rede com base em regras pré-definidas. O objetivo principal de um firewall é proteger uma rede contra ameaças externas, como acesso não autorizado, malware e ataques cibernéticos.</li>
+                    <li>Cabos Ethernet: cabos de rede utilizados para estabelecer conexões com fio em redes locais (LANs).</li>
+                    <li>Cabos Coaxiais:                tipo de cabo de transmissão de sinal que consiste em um condutor interno, um isolante dielétrico, uma blindagem metálica e uma cobertura externa.
                      </li>
-                    <li>Conectores RJ-45</li>
-                    <li>Placas de rede</li>
-                    <li>Protocolo TCP/IP</li>
-                    <li>Servidores</li>
-                    <li>Modelo OSI</li>
-                    <li>Modelo TCP/IP</li>
-                    <li>Redes locais</li>
-                    <li>VLAN, LAN</li>
-                    <li>WAN</li>
-                    <li>MAN</li>
-                    <li>CGI.br</li>
-                    <li>NCI.br</li>
-                    <li>NAT</li>
-                    <li>DHCP</li>
-                    <li>Endereços IPV6</li>
-                    <li>Endereços IPV4: NAT, DHCP</li>
-                    <li>Governança (ICANN)</li>
-                    <li>TLD</li>
-                    <li>TCP</li>
-                    <li>UDP</li>
-                    <li>HTTP</li>
+                    <li>Conectores RJ-45: conectores padrão utilizados para conectar cabos Ethernet de rede. Eles são amplamente usados em redes locais (LANs) para estabelecer conexões com fio entre dispositivos de rede, como computadores, roteadores, switches, impressoras e outros dispositivos de rede.</li>
+                    <li>Placas de rede: também conhecidas como placas de interface de rede (NIC - Network Interface Card), são dispositivos de hardware usados para conectar computadores e outros dispositivos a uma rede. Elas são responsáveis por enviar e receber dados através da rede, permitindo que os dispositivos se comuniquem uns com os outros.</li>
+                    <li>Protocolo TCP/IP: um conjunto de protocolos de comunicação que define as regras para a transmissão e recepção de dados em redes de computadores. Ele é a base da Internet e é amplamente utilizado em redes locais (LANs) e redes de longa distância (WANs).</li>
+                    <li>Servidores: computadores ou sistemas de hardware dedicados a fornecer serviços, recursos e funcionalidades específicas para outros dispositivos e usuários em uma rede. Eles desempenham um papel crucial no armazenamento, processamento e compartilhamento de informações e recursos em uma infraestrutura de rede.</li>
+                    
+                    <li>Redes locais: uma rede de computadores que abrange uma área geográfica limitada, como um escritório, um prédio ou um campus universitário.</li>
+                    <li>VLAN: uma técnica de rede que permite a criação de redes virtuais lógicas dentro de uma rede física. Com as VLANs, é possível segmentar uma rede física em várias redes virtuais independentes, mesmo que os dispositivos estejam conectados ao mesmo switch físico.</li>
+                    <li>MAN: é uma rede de computadores que abrange uma área geográfica maior do que uma LAN, geralmente uma cidade ou uma área metropolitana. Ela conecta várias LANs e pode abranger vários edifícios ou campus dentro de uma cidade.</li>
+                    <li>WAN: rede de computadores que abrange uma área geográfica ampla, como um país, continente ou até mesmo o mundo inteiro. Ela interconecta redes locais (LANs e MANs) em diferentes locais geográficos através de tecnologias como linhas alugadas, circuitos virtuais, redes privadas virtuais (VPNs) e a Internet.</li>
+                    
+                    <li>CGI.br(Comitê Gestor da Internet no Brasil): um órgão responsável pela coordenação e governança da Internet no Brasil. Foi criado em 1995 com o objetivo de estabelecer diretrizes estratégicas relacionadas ao uso, desenvolvimento e governança da Internet no país.: </li>
+                    <li>NIC.br(Núcleo de Informação e Coordenação do Ponto BR): uma entidade brasileira responsável pela coordenação e administração do registro de domínios sob o código de país ".br" e pela promoção do desenvolvimento da Internet no Brasil. Ele atua como um braço operacional do CGI.br (Comitê Gestor da Internet no Brasil) e desempenha várias funções relacionadas à governança da Internet no país.</li>
+                    <li>NAT (Network Address Translation):  técnica utilizada em redes de computadores para traduzir endereços IP de um domínio para outro, permitindo a comunicação entre redes com diferentes esquemas de endereçamento IP.</li>
+                    <li>DHCP (Dynamic Host Configuration Protocol): protocolo de rede que permite a atribuição dinâmica de configurações de rede para dispositivos em uma rede IP. Ele simplifica a configuração e gerenciamento de endereços IP, máscaras de sub-rede, gateways padrão, servidores DNS e outros parâmetros de rede.</li>
+                    <li>Endereços IPV6: são a próxima geração de endereços IP utilizados na Internet. Eles foram introduzidos para substituir gradualmente os endereços IPv4, que estão se esgotando devido ao crescimento contínuo da Internet. Os endereços IPv6 são representados por 128 bits, em comparação aos 32 bits dos endereços IPv4.</li>
+                    <li>Endereços IPV4: são a versão atualmente mais comum de endereços IP utilizados na Internet. Eles são compostos por 32 bits e são representados por quatro grupos de números decimais separados por pontos. Cada grupo de números decimais representa 8 bits. Um exemplo de endereço IPv4 é:
+
+                        192.168.0.1</li>
+                    <li>Governança (ICANN - Internet Corporation for Assigned Names and Numbers): uma organização global sem fins lucrativos responsável pela coordenação dos identificadores exclusivos da Internet. Ela desempenha um papel fundamental na governança da Internet, garantindo a estabilidade e segurança do sistema de nomes de domínio (DNS) e da atribuição de endereços IP.</li>
+                    <li>TLD(Top-Level Domain): a parte mais alta da hierarquia do sistema de nomes de domínio (DNS). É a última parte de um nome de domínio, localizada após o último ponto. Os TLDs são usados para identificar a natureza ou a finalidade de um domínio específico na Internet.</li>
+                    <li>TCP:  protocolo orientado à conexão, o que significa que antes de enviar dados, é estabelecida uma conexão entre o remetente e o destinatário.</li>
+                    <li>UDP: protocolo não orientado à conexão, o que significa que não é estabelecida uma conexão prévia antes de enviar os dados.</li>
+                    <li>HTTP(Hypertext Transfer Protocol): um protocolo de comunicação utilizado para transferir informações pela World Wide Web (WWW). É a base para a comunicação entre um cliente (geralmente um navegador da web) e um servidor web.</li>
                     <li>Normas e regras pertinentes a comunicação e conectividade</li>
                 </ul>
             </section>
         </div>
 
         <section>
-
+            <div>
+                <h1 style="justify-content: center; text-align: center;">Projetos</h1>
+                <figure>
+                    <h2>Cruzamento</h2>
+                    <img src="./imagens/tinkercad_imagem_projeto_semaforo.png" alt="Tinkercad: projeto semáforo.">
+                 <figcaption>
+                    <p>O projeto acima visa simular dois semáforos de carros e um de pedestre. As condições de funcionamento: </p>
+                    <ul>
+                        <li>Se um semáforo estiver aberto, nenhum dos outros pode estar aberto;</li>
+                        <li>Ao apertar para atravessar, o semáforo do pedestre deve esperar que o semáforo de carros aberto seja fechado e entãoabra passagem para o pedestre que aguarda.</li>
+                    </ul>
+                    <p>O projeto/protótipo foi feito em C++ e foram utilizados conceitos de automação e eletrônica.</p>
+                 </figcaption>
+                </figure>
+            </div>
+            <div>
+                <h1>Banco de dados de uma companhia</h1>
+                <p>O projeto tratava-se de criar um Banco Relacional no Postgree para uma Companhia, organizada por departamentos. Cada departamento é responsável por vários projetos e cada projeto está emum único departamento.</p>
+                <p>Existem três tipos de funcionários: pesquisadores, secretários e funcionários.</p>
+                <p>Antes de fazermos o BD propriamento dito fizemos o DER e o MER</p>
+                <h2>DER:</h2>
+                <img src="./imagens/DER.JPG" alt="">
+                <p>Após isso, utilizamos comandos DDL, DML, DQL, QTL e DCL.</p>
+                <figure>
+                    
+                    <img src="./imagens/" alt="">
+                    <figcaption>Banco de dados no Postgree, com os diversos tipos de comandos aprendidos.</figcaption>
+                </figure>
+            </div>
+            <div>
+                <h1>Rede Zimbábue e </h1>
+                
+                <figure>
+                    <img src="./imagens/redes_origin.jpeg" alt="">
+                </figure>
+            </div>
+            
         </section>
         
     </main>

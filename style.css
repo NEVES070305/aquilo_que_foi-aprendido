@@ -82,11 +82,12 @@ div.imagens_baixo{
 h1#faca_senai{
     margin-top: 50px;
 }
-
+/*
 ::-webkit-scrollbar{
     overflow: hidden;
     background: none;
 }
+*/
 div.ajustes_corpo{
     margin-left: 25px;
 }

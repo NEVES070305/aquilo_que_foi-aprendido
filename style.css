@@ -48,7 +48,7 @@ nav a:hover {
     transition: 1s;
 }
 div.faca{
-    width: 200%;
+    width: 100%;
     padding-left: 5%;
 }
 section.home{
@@ -100,7 +100,13 @@ div.html_css{
     text-align: center;
 }
 
+div.projetos{
 
+}
+
+figure img{
+    width: 70%;
+}
 
 /*
 main.index{
@@ -147,7 +153,8 @@ footer{
     color: #fff;
     bottom: 0;
     width: 100%;
-    padding: 10px;
+    padding-top: 1%;
+    padding-bottom: 1%;
 }
 /*
 p{

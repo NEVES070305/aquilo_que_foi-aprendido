@@ -30,10 +30,11 @@ nav {
     justify-content: space-between;
     justify-content: space-around;
     margin-bottom: 0;
+    height: 10vh;
 }
-div.nav{
-    margin: 0px;
 
+div.nav{
+    
 }
 nav a {
     text-decoration: none;
@@ -48,8 +49,7 @@ nav a:hover {
     transition: 1s;
 }
 div.faca{
-    width: 100%;
-    padding-left: 5%;
+    
 }
 section.home{
     display: flex;
@@ -62,7 +62,7 @@ section.home{
     background-color: #7A609A;
 }
 div.ads_senai{
-    padding-left: 5%;
+    
 }
 
 div.ajuste{
